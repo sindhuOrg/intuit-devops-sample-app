@@ -7,9 +7,9 @@
 	o-o -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.intuit.sb.devops.bootcamp.name</groupId>
+  <groupId>com.intuit.sb.devops.bootcamp.SindhuSrinivasan</groupId>
   <artifactId>webapp</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>${project.version} - ${project.artifactId}</name>
   <description>Sample Maven web app project</description>
@@ -31,7 +31,7 @@
             <showWarnings>true</showWarnings>
           </configuration>
         </plugin>
-        <plugin>
+        <!-- <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-war-plugin</artifactId>
           <version>2.4</version>
@@ -56,7 +56,7 @@
               </manifestEntries>
             </archive>
           </configuration>
-        </plugin>
+        </plugin> -->
       </plugins>
     </pluginManagement>
   </build>
